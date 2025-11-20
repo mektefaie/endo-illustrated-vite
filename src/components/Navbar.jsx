@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     // nav section
-    <nav className="fixed top-0 w-full z-50 transition-all duration-300 bg-slate-950/20 backdrop-blur-sm">
+    <nav className="fixed top-0 w-full z-50 transition-all duration-300 backdrop-blur-lg bg-slate-950/70">
       {/* container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* navbar */}
@@ -24,7 +24,7 @@ const Navbar = () => {
             />
             <span className="text-lg sm:text-xl md:text-2xl font-medium tracking-wider">
               <span className="text-white">Endo</span>
-              <span className="text-pink-400">Illustrated</span>
+              <span className="text-pink-400">illustrated</span>
             </span>
           </Link>
 
@@ -32,19 +32,19 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <a
               href="#features"
-              className="text-gray-300 hover:text-white text-sm lg:text-base"
+              className="text-gray-300 hover:text-pink-300 text-sm lg:text-base"
             >
               Features
             </a>
             <a
               href="#pricing"
-              className="text-gray-300 hover:text-white text-sm lg:text-base"
+              className="text-gray-300 hover:text-pink-300 text-sm lg:text-base"
             >
               Pricing
             </a>
             <a
               href="#testimonials"
-              className="text-gray-300 hover:text-white text-sm lg:text-base"
+              className="text-gray-300 hover:text-pink-300 text-sm lg:text-base"
             >
               Testimonials
             </a>
@@ -66,26 +66,26 @@ const Navbar = () => {
 
       {/* menu in mobile view */}
       {mobileMenuIsOpen && (
-        <div className="md:hidden bg-slate-900/95 backdrop-blur-lg border-t border-slate-800 animate-in slide-in-from-top duration-300">
+        <div className="md:hidden bbackdrop-blur-lg bg-slate-950/70border-t border-b border-pink-800 animate-in slide-in-from-top duration-300">
           <div className="px-4 py-4 sm:py-6 space-y-3 sm:space-y-4">
             <a
               href="#features"
               onClick={() => setMobileMenuIsOpen(false)}
-              className="block text-gray-300 hover:text-white text-sm lg:text-base"
+              className="block text-gray-300 hover:text-pink-200 text-sm lg:text-base"
             >
               Features
             </a>
             <a
               href="#pricing"
               onClick={() => setMobileMenuIsOpen(false)}
-              className="block text-gray-300 hover:text-white text-sm lg:text-base"
+              className="block text-gray-300 hover:text-pink-200 text-sm lg:text-base"
             >
               Pricing
             </a>
             <a
               href="#testimonials"
               onClick={() => setMobileMenuIsOpen(false)}
-              className="block text-gray-300 hover:text-white text-sm lg:text-base"
+              className="block text-gray-300 hover:text-pink-200 text-sm lg:text-base"
             >
               Testimonials
             </a>
