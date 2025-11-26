@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
 
             {/* hero h1 tag */}
-            <h1 className="text-5xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 leading-tight">
+            <h1 className="text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl font-bold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 leading-tight">
               <span className="tracking-wide  bg-gradient-to-r from-white via-pink-100 to-pink-100 bg-clip-text text-transparent block mb-1 sm:mb-2">
                 Endodontics
               </span>
@@ -94,7 +94,7 @@ const Hero = () => {
             <div className="relative bg-pink-400/10 backdrop-blur-xl rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-2xl border border-pink-500/20">
               <div className="bg-gradient-to-br  backdrop-blur-sm rounded-lg overflow-hidden h-[280px] sm:h-[350px] lg:h-[450px] border border-pink-500/10 flex items-center justify-center">
                 <img
-                  src="/public/hero-image.png"
+                  src="/hero-image.png"
                   alt="Human Jaw Sketch"
                   className="object-contain w-full h-full"
                 />

@@ -31,10 +31,16 @@ const Navbar = () => {
           {/* nav links */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <a
-              href="#features"
+              href="#projects"
               className="text-gray-300 hover:text-pink-300 text-sm lg:text-base"
             >
-              Features
+              Projects
+            </a>
+            <a
+              href="#process"
+              className="text-gray-300 hover:text-pink-300 text-sm lg:text-base"
+            >
+              Process
             </a>
             <a
               href="#pricing"
@@ -69,11 +75,18 @@ const Navbar = () => {
         <div className="md:hidden bbackdrop-blur-lg bg-slate-950/70border-t border-b border-pink-800 animate-in slide-in-from-top duration-300">
           <div className="px-4 py-4 sm:py-6 space-y-3 sm:space-y-4">
             <a
-              href="#features"
+              href="#projects"
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-gray-300 hover:text-pink-200 text-sm lg:text-base"
             >
-              Features
+              Projects
+            </a>
+            <a
+              href="#process"
+              onClick={() => setMobileMenuIsOpen(false)}
+              className="block text-gray-300 hover:text-pink-200 text-sm lg:text-base"
+            >
+              Process
             </a>
             <a
               href="#pricing"
