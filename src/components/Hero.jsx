@@ -41,7 +41,7 @@ const Hero = () => {
 
             {/* hero h1 tag */}
             <h1 className="text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl font-bold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 leading-tight">
-              <span className="tracking-wide  bg-gradient-to-r from-white via-pink-100 to-pink-100 bg-clip-text text-transparent block mb-1 sm:mb-2">
+              <span className="tracking-wide bg-gradient-to-r from-white via-pink-100 to-pink-100 bg-clip-text text-transparent block mb-1 sm:mb-2">
                 Endodontics
               </span>
               <span className="tracking-wide bg-gradient-to-b from-pink-400 via-pink-400 to-pink-400 bg-clip-text text-transparent block mb-1 sm:mb-2">
@@ -92,7 +92,7 @@ const Hero = () => {
           {/* hero image container */}
           <div className="relative order-2 w-full">
             <div className="relative bg-pink-400/10 backdrop-blur-xl rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-2xl border border-pink-500/20">
-              <div className="bg-gradient-to-br  backdrop-blur-sm rounded-lg overflow-hidden h-[280px] sm:h-[350px] lg:h-[450px] border border-pink-500/10 flex items-center justify-center">
+              <div className="bg-gradient-to-br backdrop-blur-sm rounded-lg overflow-hidden h-[280px] sm:h-[350px] lg:h-[450px] border border-pink-500/10 flex items-center justify-center">
                 <img
                   src="/hero-image.png"
                   alt="Human Jaw Sketch"
